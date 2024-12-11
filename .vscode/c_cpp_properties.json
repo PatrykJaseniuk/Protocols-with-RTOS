@@ -1,0 +1,60 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/borys/Dokumenty/Arduino/Protocols/include",
+                "/home/borys/Dokumenty/Arduino/Protocols/src",
+                "/home/borys/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/borys/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/borys/Dokumenty/Arduino/Protocols/.pio/libdeps/master/CircularBuffer",
+                "/home/borys/Dokumenty/Arduino/Protocols/.pio/libdeps/master/FreeRTOS/src",
+                "/home/borys/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/borys/.platformio/packages/framework-arduino-avr/variants/standard",
+                "/home/borys/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/borys/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/borys/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/borys/Dokumenty/Arduino/Protocols/include",
+                    "/home/borys/Dokumenty/Arduino/Protocols/src",
+                    "/home/borys/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/borys/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/borys/Dokumenty/Arduino/Protocols/.pio/libdeps/master/CircularBuffer",
+                    "/home/borys/Dokumenty/Arduino/Protocols/.pio/libdeps/master/FreeRTOS/src",
+                    "/home/borys/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/borys/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "/home/borys/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/borys/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/borys/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60116",
+                "ARDUINO_AVR_UNO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/home/borys/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
